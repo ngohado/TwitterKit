@@ -65,9 +65,9 @@ public class MainActivity extends AppCompatActivity {
                 } catch (MalformedURLException e) {
                     e.printStackTrace();
                 }
-                String url = "http://twitter.com/share?text=Hado handsome&url=https://google.com&hashtags=depzai,totbung";
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-                startActivity(intent);
+//                String url = "http://twitter.com/share?text=Hado handsome&url=https://google.com&hashtags=depzai,totbung";
+//                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+//                startActivity(intent);
             }
         });
     }
